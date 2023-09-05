@@ -13,7 +13,7 @@ const ApiDos = () =>{
     const [personajes, setPersonajes] = useState([]);
 
     useEffect(()=>{
-        fetch('https://rickandmortyapi.com/api/character')
+        fetch(misDatos)
         /* 2. fetch(URL) */
         /* 3.  */
         /* fetch(URLDOS) */

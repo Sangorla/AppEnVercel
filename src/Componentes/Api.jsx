@@ -21,7 +21,7 @@ const Api = () =>{
         /* 1. fetch('https://rickandmortyapi.com/api/character') */
         /* 2. fetch(URL) */
         /* 3.  */
-        fetch('https://rickandmortyapi.com/api/character')
+        fetch(URLDOS)
         .then(respuesta => respuesta.json())
         .then(respuesta => setPersonajes(respuesta.results))
         /* .then(respuesta => console.log(personaje)) */
